@@ -1,0 +1,91 @@
+//### Theme 1
+
+// #### Backgrounds
+// (main background)
+$Verydarkdesaturatedblue01 : hsl(222, 26%, 31%);
+// (toggle background, keypad background)
+$Verydarkdesaturatedblue02: hsl(223, 31%, 20%);
+// (screen background)
+$Verydarkdesaturatedblue03 : hsl(224, 36%, 15%);
+
+// #### Keys
+// (key background)
+$Desaturateddarkblue01 : hsl(225, 21%, 49%);
+// (key shadow)
+$Desaturateddarkblue: hsl(224, 28%, 35%);
+// (keybackground,toggle)
+$Red:hsl(6,63%,50%);
+// (keyshadow)
+$Darkred:hsl(6,70%,34%);
+// (keybackground)
+$Lightgrayishorange:hsl(30,25%,89%);
+// (keyshadow)
+$Grayishorange:hsl(28,16%,65%);
+
+// ####Text
+
+$Verydarkgrayishblue:hsl(221,14%,31%);
+$White:hsl(0,0,100%);
+
+
+// .....................................
+// ### Theme 2
+
+// #### Backgrounds
+// (main background)
+$Lightgray: hsl(0, 1%, 63%);
+
+// (toggle background, keypad background)
+$Grayishred: hsl(0, 5%, 81%);
+
+// (screen background)
+$Verylightgray: hsl(0, 0%, 93%);
+
+// #### Keys
+// (key background)
+$Darkmoderatecyan: hsl(185, 42%, 37%);
+// (key shadow)
+$Verydarkcyan: hsl(185, 58%, 25%);
+// (key background, toggle)
+$Orange: hsl(25, 98%, 40%);
+// (key shadow)
+$Darkorange : hsl(25, 99%, 27%);
+// (key background)
+$Lightgrayishyellow: hsl(45, 7%, 89%);
+// (key shadow)
+$Darkgrayishorange : hsl(35, 11%, 61%);
+
+// #### Text
+
+$Verydarkgrayishyellow: hsl(60, 10%, 19%);
+// (text)
+$White: hsl(0, 0, 100%);
+
+
+// ...................................
+
+// #### Backgrounds
+// (main background)
+$Verydarkviolet: hsl(268, 75%, 9%);
+// (toggle background, keypad background, screen background)
+$Verydarkviolet : hsl(268, 71%, 12%);
+
+// #### Keys
+// (key background)
+$Darkviolet : hsl(281, 89%, 26%);
+// (key shadow)
+$Vividmagenta : hsl(285, 91%, 52%);
+// (key background, toggle)
+$Purecyan: hsl(176, 100%, 44%);
+// (key shadow)
+$Softcyan : hsl(177, 92%, 70%);
+// (key background)
+$Verydarkviolet : hsl(268, 47%, 21%);
+// (key shadow)
+$Darkmagenta : hsl(290, 70%, 36%);
+
+// #### Text
+
+$Lightyellow: hsl(52, 100%, 62%);
+$Verydarkblue: hsl(198, 20%, 13%);
+$White: hsl(0, 0, 100%);

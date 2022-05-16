@@ -1,0 +1,57 @@
+.theme03 {
+  & .header {
+    color: $Verydarkgrayishyellow;
+    & .theme {
+      & .main__div {
+        background-color: $Grayishred;
+        & .main__span {
+          background-color: $Orange;
+        }
+      }
+    }
+  }
+  & #display {
+    background-color: $Verylightgray;
+    color: $Verydarkgrayishyellow;
+  }
+  .las__row {
+    background-color: $Grayishred;
+    & .rest,
+    & .equal {
+      color: $White;
+      &:hover {
+        opacity: 0.7;
+        transition: 200ms ease-in-out;
+      }
+    }
+    & .rest {
+      background-color: $Darkmoderatecyan;
+      box-shadow: inset 0px -3px 4px $Verydarkcyan;
+    }
+    & .equal {
+      background-color: $Orange;
+      box-shadow: inset 0px -3px 4px $Darkorange;
+    }
+  }
+  & .buttons {
+    background-color: $Grayishred;
+    & .x {
+      background-color: $Lightgrayishyellow;
+      box-shadow: inset 0px -3px 4px $Darkgrayishorange;
+      color: $Verydarkgrayishyellow;
+      &:hover {
+        background-color: $White;
+        transition: 200ms ease-in-out;
+      }
+    }
+    & .del {
+      background-color: $Darkmoderatecyan;
+      box-shadow: inset 0px -3px 4px $Verydarkcyan;
+      color: white;
+      &:hover {
+        opacity: 0.7 !important;
+        transition: 200ms ease-in-out;
+      }
+    }
+  }
+}

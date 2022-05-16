@@ -1,0 +1,58 @@
+.theme02 {
+  & .header {
+    color: $Lightyellow;
+    & .theme {
+      & .main__div {
+        background-color: $Verydarkviolet;
+        & .main__span {
+          background-color: $Purecyan;
+        }
+      }
+    }
+  }
+  & #display {
+    background-color: $Verydarkviolet;
+    color: $Lightyellow;
+  }
+  .las__row {
+    background-color: $Verydarkviolet;
+    & .rest,
+    & .equal {
+      color: $White;
+      &:hover {
+        opacity: 0.7;
+        transition: 200ms ease-in-out;
+      }
+    }
+    & .rest {
+      background-color: $Verydarkviolet;
+      box-shadow: inset 0px -3px 4px $Darkmagenta;
+    }
+    & .equal {
+      background-color: $Purecyan;
+      box-shadow: inset 0px -3px 4px $Softcyan;
+      color: $Verydarkblue !important;
+    }
+  }
+  & .buttons {
+    background-color: $Verydarkviolet;
+    & .x {
+      background-color: $Darkviolet;
+      box-shadow: inset 0px -3px 4px $Vividmagenta;
+      color: $Lightyellow;
+      &:hover {
+        opacity: 0.7;
+        transition: 200ms ease-in-out;
+      }
+    }
+    & .del {
+      background-color: $Verydarkviolet;
+      box-shadow: inset 0px -3px 4px $Darkmagenta;
+      color: white;
+      &:hover {
+        opacity: 0.7 !important;
+        transition: 200ms ease-in-out;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.theme01 {
+  & .header {
+    color: $White;
+    & .theme {
+      & .main__div {
+        background-color: $Verydarkdesaturatedblue02;
+        & .main__span {
+          background-color: $Red;
+        }
+      }
+    }
+  }
+  & #display {
+    background-color: $Verydarkdesaturatedblue03;
+    color: $White;
+  }
+  .las__row {
+    background-color: $Verydarkdesaturatedblue02;
+    & .rest,
+    & .equal {
+      color: $White;
+      &:hover {
+        opacity: 0.7;
+        transition: 200ms ease-in-out;
+      }
+    }
+    & .rest {
+      background-color: $Desaturateddarkblue01;
+      box-shadow: inset 0px -3px 4px $Desaturateddarkblue;
+    }
+    & .equal {
+      background-color: $Red;
+      box-shadow: inset 0px -3px 4px $Darkred;
+    }
+  }
+  & .buttons {
+    background-color: $Verydarkdesaturatedblue02;
+    & .x {
+      background-color: $Lightgrayishorange;
+      box-shadow: inset 0px -3px 4px $Grayishorange;
+      color: $Verydarkgrayishblue;
+      &:hover {
+        background-color: $White;
+        transition: 200ms ease-in-out;
+      }
+    }
+    & .del {
+      background-color: $Desaturateddarkblue01;
+      box-shadow: inset 0px -3px 4px $Desaturateddarkblue;
+      color: white;
+      &:hover {
+        opacity: 0.7 !important;
+        transition: 200ms ease-in-out;
+      }
+    }
+  }
+}
