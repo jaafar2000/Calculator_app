@@ -119,8 +119,7 @@ body {
 }
 @media (max-width: 63.9375em) {
   .container #display {
-    font-size: 35px;
-    line-height: 60;
+    font-size: 30px;
   }
 }
 .container .las__row {

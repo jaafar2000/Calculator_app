@@ -59,8 +59,7 @@
     margin-bottom: 15px;
     border-radius: 10px;
     @include breakpoint-down(medium) {
-      font-size: 35px;
-      line-height: 60;
+      font-size: 30px;
     }
   }
   .las__row {
